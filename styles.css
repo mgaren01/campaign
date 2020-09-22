@@ -1,0 +1,15 @@
+.jumbotron-with-bg-image{
+    background-image: url('https://specials-images.forbesimg.com/imageserve/5d07abec34a5c400084894e0/960x0.jpg?fit=scale');
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+   div.carousel{
+    width: 80%; /* for example */
+    margin: auto;
+
+    .carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+width: 100%; /* use this, or not */
+margin: auto;
+}
